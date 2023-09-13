@@ -12,4 +12,4 @@ password: adminadmin
 
 # Demo
 
-link(https://garongan.github.io/admin-panel)
+[Demo Link](https://garongan.github.io/admin-panel)
