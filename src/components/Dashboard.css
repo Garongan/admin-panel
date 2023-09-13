@@ -2,6 +2,8 @@
   background-color: #f7f8fc;
   margin-left: 15%;
   padding-left: 20px;
+  padding-right: 20px;
+  height: 100%;
 }
 
 .sidebar {
@@ -12,9 +14,12 @@
   height: 100vh;
 }
 
-.title {
+.dashboard-title {
   padding-top: 1rem;
+  padding-bottom: 2rem;
   font-weight: 500;
+  font-size: 1.5rem;
+  color: #282a36;
   display: flex;
   flex-direction: row;
 }
@@ -22,14 +27,14 @@
 .profile-wrapper {
   display: flex;
   flex-direction: row;
+  align-items: center;
   font-size: 1rem;
   margin-left: auto;
   margin-right: 0;
-  padding-right: 20px;
 }
 
 .profile-wrapper span {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .search,
@@ -37,4 +42,57 @@
   margin-top: 4px;
   margin-right: 10px;
   cursor: pointer;
+}
+
+.dashboard-actions-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: 1.5%;
+  margin: 20px auto;
+}
+
+.dashboard-action-button {
+  font-size: 1rem;
+  padding: 4rem 0;
+  background-color: #ffffff;
+  color: #afb1c0;
+  border: none;
+  border-radius: 5px;
+  width: 23.5%;
+  height: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-action-button span {
+  margin-top: 1.2rem;
+  color: black;
+  font-size: 2rem;
+}
+
+.dashboard-action-button.active,
+.dashboard-action-button.active span {
+  color: #3751ff;
+}
+
+.dashboard-action-button.active {
+  border: 1.5px solid #3751ff;
+}
+
+.dashboard-chart {
+  flex: 1; /* Expand to fill available space */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard-footer {
+  padding: 10px;
 }

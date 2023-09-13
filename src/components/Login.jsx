@@ -64,8 +64,8 @@ export default function Login() {
           </div>
           <div className="text">Dashboard Kit</div>
         </div>
-        <div className="title">Log In to Dashboard Kit</div>
-        <div className="subtitle">Enter your email and password below</div>
+        <div className="login-title">Log In to Dashboard Kit</div>
+        <div className="login-subtitle">Enter your email and password below</div>
 
         <div className="form">
           <form method="post" onSubmit={handleSubmit}>

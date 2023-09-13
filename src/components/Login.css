@@ -31,13 +31,13 @@
   font-size: 50px;
 }
 
-.title {
+.login-title {
   color: #282a36;
   font-weight: bold;
   font-size: 1.5rem;
 }
 
-.subtitle {
+.login-subtitle {
   margin: 5px;
   color: #afb1c0;
   font-size: 0.85rem;

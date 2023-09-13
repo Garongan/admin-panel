@@ -1,0 +1,33 @@
+.chart-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.chart {
+  width: 75% !important;
+  border-right: 1px solid #afb1c0;
+}
+
+.chart-informations {
+  text-align: center;
+  width: 25%;
+}
+
+.chart-information {
+  border-bottom: 1px solid #afb1c0;
+}
+
+.chart-information:last-child hr {
+  border-bottom: 0;
+}
+
+.chart-information .title {
+  color: #afb1c0;
+  font-size: 1rem;
+}
+
+.chart-information .sum {
+  color: black;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
