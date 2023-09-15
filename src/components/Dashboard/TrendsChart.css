@@ -6,18 +6,24 @@
 .chart {
   width: 75% !important;
   border-right: 1px solid #afb1c0;
+  padding: 10px;
 }
 
 .chart-informations {
   text-align: center;
   width: 25%;
+  display: grid;
 }
 
 .chart-information {
   border-bottom: 1px solid #afb1c0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
-.chart-information:last-child hr {
+.chart-information:last-child {
   border-bottom: 0;
 }
 

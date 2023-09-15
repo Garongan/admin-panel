@@ -6,12 +6,60 @@
   height: 100%;
 }
 
+.logo .icon-logo {
+  vertical-align: middle;
+  font-size: 2rem;
+}
+
+.sidebar .icon-sidebar {
+  vertical-align: middle;
+  fill: #afb1c0 !important;
+}
+
+.active .icon-sidebar {
+  vertical-align: middle;
+  color: #fff;
+  fill: #fff !important;
+}
+
+.sidebar .active span {
+  color: #fff;
+}
+
+.sidebar span {
+  color: #afb1c0;
+}
+
 .sidebar {
   position: fixed;
   left: 0;
   width: 15%;
   background-color: #363740;
   height: 100vh;
+}
+
+.sidebar ul {
+  margin-block: 0;
+  margin-inline: 0;
+  padding-inline: 0;
+}
+
+.sidebar li {
+  cursor: pointer;
+  list-style: none;
+  padding-left: 1rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.sidebar .logo{
+  padding-left: 1rem;
+  padding-top: 1.5rem;
+  padding-bottom: 4rem;
+}
+
+.sidebar li.active {
+  background-color: #3751ff;
 }
 
 .dashboard-title {
@@ -41,7 +89,6 @@
 .notif {
   margin-top: 4px;
   margin-right: 10px;
-  cursor: pointer;
 }
 
 .dashboard-actions-wrapper {
@@ -85,9 +132,7 @@
   border: 1.5px solid #3751ff;
 }
 
-.dashboard-chart {
-  flex: 1; /* Expand to fill available space */
-  padding: 20px;
+.dashboard-today-trends-wrapper {
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -95,4 +140,24 @@
 
 .dashboard-footer {
   padding: 10px;
+}
+
+.profile-pic {
+  border: 2px solid #afb1c0;
+  background-color: white;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-pic img {
+  width: 35px;
+  height: 35px;
+  object-position: 80% 20%;
+  object-fit: cover;
+  border-radius: 50%;
 }

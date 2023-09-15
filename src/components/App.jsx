@@ -1,7 +1,7 @@
 import { Fragment } from "react";
-import Login from "./Login";
+import Login from "./Login/Login";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import Dashboard from "./Dashboard";
+import Dashboard from "./Dashboard/Dashboard";
 
 function App() {
   return (
