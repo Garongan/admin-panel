@@ -9,3 +9,7 @@ when its done now run `pnpm run dev`
 
 email: admin@mail.com
 password: adminadmin
+
+# Demo
+
+[Demo Link](https://garongan.github.io/admin-panel)
