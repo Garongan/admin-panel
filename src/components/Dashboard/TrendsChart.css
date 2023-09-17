@@ -4,27 +4,23 @@
 }
 
 .chart {
-  width: 75% !important;
-  border-right: 1px solid #afb1c0;
-  padding: 10px;
+  padding: 2rem 0.75rem;
 }
 
 .chart-informations {
   text-align: center;
-  width: 25%;
   display: grid;
+  width: 100%;
 }
 
 .chart-information {
-  border-bottom: 1px solid #afb1c0;
+  border-top: 1px solid #afb1c0;
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-}
-
-.chart-information:last-child {
-  border-bottom: 0;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem 0;
 }
 
 .chart-information .title {
@@ -36,4 +32,26 @@
   color: black;
   font-size: 1.5rem;
   font-weight: 500;
+}
+
+@media only screen and (min-width: 768px) {
+  .chart {
+    width: 75% !important;
+    border-bottom: 0;
+    border-right: 1px solid #afb1c0;
+    padding: 0.75rem;
+    margin: 0;
+  }
+  .chart-informations {
+    display: grid;
+    width: 25%;
+  }
+  .chart-information {
+    border-top: 0;
+    border-bottom: 1px solid #afb1c0;
+    height: auto;
+  }
+  .chart-information:last-child {
+    border-bottom: 0;
+  }
 }

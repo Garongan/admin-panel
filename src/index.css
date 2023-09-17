@@ -18,3 +18,17 @@ body {
   margin: 0 !important;
   padding: 0 !important;
 }
+
+html {
+  font-size: 70%;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .sidebar span {
+    display: inline;
+  }
+  html {
+    font-size: 100%;
+  }
+}

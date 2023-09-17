@@ -60,14 +60,15 @@ export default function Dashboard() {
       <div className="dashboard">
         <div className="dashboard-title">
           Overview
-          <div className="profile-wrapper">
+          <div className="dashboard-profile-wrapper">
             <div className="search">
               <AiOutlineSearch />
             </div>
             <div className="notif">
               <IoIosNotifications />
             </div>
-            <span>|</span> Alvindo Tri Jatmiko
+            <div className="vl"></div>
+            <div className="dashboard-profile-name">Alvindo Tri Jatmiko</div>
             <div className="profile-pic">
               <img src="profile.jpg" alt="" />
             </div>

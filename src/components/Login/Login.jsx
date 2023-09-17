@@ -42,7 +42,7 @@ export default function Login() {
       email == dataAdmin[0] &&
       password == dataAdmin[1]
     ) {
-      navigate("/dashboard");
+      navigate("/admin-panel/dashboard");
     } else {
       setFormData({ email: "", password: "" });
       newErrors.invalidAuth = "The email and password is wrong!!!";
