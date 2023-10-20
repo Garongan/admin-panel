@@ -11,7 +11,10 @@ email: admin@mail.com
 password: adminadmin
 
 # Screenshot
- ![admin panel screenshot](react-admin-panel-dekstop.png)
+
+![admin panel screenshot](react-admin-panel-dekstop.webp)
+![admin panel screenshot](react-admin-panel-tablet.webp)
+![admin panel screenshot](react-admin-panel-mobile.webp)
 
 # Demo
 
